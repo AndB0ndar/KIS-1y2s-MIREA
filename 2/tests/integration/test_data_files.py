@@ -10,8 +10,8 @@ from app import FileAnalyzer, analyze
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
 DATA_EXPECTED = {
-    "sample_english.txt": {"words": 27, "chars": 156},
-    "sample_russian.txt": {"words": 27, "chars": 175},
+    "english.txt": {"words": 27, "chars": 156},
+    "russian.txt": {"words": 27, "chars": 175},
     "empty.txt": {"words": 0, "chars": 0},
     "large.txt": {"words": 138, "chars": 900},
 }
